@@ -24,3 +24,42 @@ function show(mode){const terrain=mode==="terrain";byId("activity-graphic").src=
 byId("calendar").addEventListener("click",()=>show("calendar"));byId("terrain").addEventListener("click",()=>show("terrain"));
 async function get(path){const r=await fetch(path);if(!r.ok)throw Error("Snapshot unavailable");return r.json()}
 Promise.all([get("assets/github-stats.json"),get("assets/activity.json")]).then(([repos,activity])=>{byId("repo-count").textContent=repos.repositories;byId("commit-count").textContent=activity.total_commits;byId("active-count").textContent=activity.active_days;byId("snapshot").textContent="Public commit window: "+activity.start+" through "+activity.end+" (UTC)."}).catch(()=>{byId("snapshot").textContent="Numeric snapshot could not load; the static charts remain available."});
+
+// Shared skills catalog: accessible, dependency-free filtering.
+(function(){
+ const root=byId("skill-groups"),search=byId("skill-search"),category=byId("skill-category"),context=byId("skill-context"),status=byId("skill-count");
+ if(!root||!search||!category||!context||!status)return;
+ const node=(tag,cls,text)=>{const el=document.createElement(tag);if(cls)el.className=cls;if(text!==undefined)el.textContent=text;return el};
+ const option=(select,value,label)=>{const el=node("option","",label);el.value=value;select.append(el)};
+ function render(data){
+  const query=search.value.trim().toLowerCase(), c=category.value, e=context.value;
+  const previous=new Map([...root.querySelectorAll("details")].map(el=>[el.dataset.group,el.open]));
+  root.replaceChildren();let count=0;
+  for(const g of data.categories){
+   if(c&&g.id!==c)continue;
+   const matching=g.skills.filter(s=>(!e||s.experience===e)&&(!query||[s.name,s.description,g.title,data.experience_labels[s.experience]].join(" ").toLowerCase().includes(query)));
+   if(!matching.length)continue;
+   count+=matching.length;
+   const detail=node("details","skill-group");detail.dataset.group=g.id;detail.open=Boolean(query||c||e)||previous.get(g.id)===true||(!previous.has(g.id)&&g.id==="languages");
+   const summary=node("summary","",g.title);summary.append(node("small","",matching.length+" skills"));detail.append(summary,node("p","",g.description));
+   const grid=node("div","skill-grid");
+   for(const s of matching){
+    const card=node("article","skill-card"),icon=node("div","skill-icon"),img=node("img");img.src=s.icon;img.alt="";img.width=36;img.height=36;img.loading="lazy";img.decoding="async";icon.append(img);
+    const body=node("div");body.append(node("h3","",s.name),node("p","",s.description),node("span","skill-context",data.experience_labels[s.experience]||s.experience));card.append(icon,body);grid.append(card);
+   }
+   detail.append(grid);root.append(detail);
+  }
+  const total=data.categories.reduce((sum,g)=>sum+g.skills.length,0);status.textContent=count+" of "+total+" skills · "+root.querySelectorAll("details").length+" disciplines";
+  if(!count)root.append(node("p","skill-empty","No matching skills. Try a different search or reset the filters."));
+ }
+ get("assets/skills.json").then(data=>{
+  if(!Array.isArray(data.categories))throw Error("Invalid skills catalog");
+  data.categories.forEach(g=>option(category,g.id,g.title));Object.entries(data.experience_labels).forEach(([key,label])=>option(context,key,label));
+  byId("skill-note").textContent=data.note;
+  search.addEventListener("input",()=>render(data));category.addEventListener("change",()=>render(data));context.addEventListener("change",()=>render(data));
+  byId("skill-reset").addEventListener("click",()=>{search.value="";category.value="";context.value="";render(data);search.focus()});
+  byId("skill-expand").addEventListener("click",()=>root.querySelectorAll("details").forEach(el=>el.open=true));
+  byId("skill-collapse").addEventListener("click",()=>root.querySelectorAll("details").forEach(el=>el.open=false));
+  render(data);
+ }).catch(()=>{status.textContent="Skills catalog could not be loaded. The full GitHub reference is available below."});
+})();

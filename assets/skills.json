@@ -1,0 +1,1658 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-25",
+  "experience_labels": {
+    "primary": "Core focus",
+    "project": "Project experience",
+    "familiar": "Familiarity",
+    "study": "Self-study",
+    "tool": "Tool workflow",
+    "practice": "Working practice"
+  },
+  "note": "Experience labels describe context, not measured proficiency. Primary/project/self-study reflect résumé and repository context; AI tools reflect stated workflow; founder and soft skills are working practices, not quantified outcomes. Familiarity is not a claim of production use.",
+  "categories": [
+    {
+      "id": "languages",
+      "title": "Languages",
+      "description": "Primary languages, project experience and independent study.",
+      "skills": [
+        {
+          "id": "typescript",
+          "name": "TypeScript",
+          "experience": "primary",
+          "description": "Typed services and web applications",
+          "icon": "assets/icons/typescript.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "javascript",
+          "name": "JavaScript",
+          "experience": "primary",
+          "description": "Web runtimes, tooling and API development",
+          "icon": "assets/skills/icons/javascript.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "go",
+          "name": "Go",
+          "experience": "primary",
+          "description": "Concurrent backend services and booking workflows",
+          "icon": "assets/icons/go.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "python",
+          "name": "Python",
+          "experience": "project",
+          "description": "Automation, AI integrations and API experimentation",
+          "icon": "assets/skills/icons/python.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "dart",
+          "name": "Dart",
+          "experience": "project",
+          "description": "Cross-platform application development",
+          "icon": "assets/skills/icons/dart.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "sql",
+          "name": "SQL",
+          "experience": "project",
+          "description": "Relational queries, schema design and transactions",
+          "icon": "assets/skills/icons/sql.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "bash",
+          "name": "Bash",
+          "experience": "project",
+          "description": "Linux automation and deployment scripting",
+          "icon": "assets/skills/icons/bash.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "rust",
+          "name": "Rust",
+          "experience": "study",
+          "description": "Systems programming and memory safety",
+          "icon": "assets/skills/icons/rust.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "c",
+          "name": "C",
+          "experience": "study",
+          "description": "Low-level programming and memory fundamentals",
+          "icon": "assets/skills/icons/c.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "csharp",
+          "name": "C#",
+          "experience": "study",
+          "description": "Object-oriented programming and .NET foundations",
+          "icon": "assets/skills/icons/csharp.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "kotlin",
+          "name": "Kotlin",
+          "experience": "study",
+          "description": "JVM and Android ecosystem fundamentals",
+          "icon": "assets/skills/icons/kotlin.svg",
+          "icon_kind": "devicon"
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "Backend & APIs",
+      "description": "Service design, contracts and application frameworks.",
+      "skills": [
+        {
+          "id": "node-js",
+          "name": "Node.js",
+          "experience": "primary",
+          "description": "Server-side JavaScript runtime and tooling",
+          "icon": "assets/skills/icons/node-js.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "nestjs",
+          "name": "NestJS",
+          "experience": "primary",
+          "description": "Modular services, dependency injection and domain architecture",
+          "icon": "assets/icons/nestjs.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "express-js",
+          "name": "Express.js",
+          "experience": "project",
+          "description": "HTTP services and REST APIs",
+          "icon": "assets/skills/icons/express-js.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "fastify",
+          "name": "Fastify",
+          "experience": "familiar",
+          "description": "Lightweight Node.js HTTP framework",
+          "icon": "assets/skills/icons/fastify.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "fastapi",
+          "name": "FastAPI",
+          "experience": "project",
+          "description": "Python API development",
+          "icon": "assets/skills/icons/fastapi.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "rest",
+          "name": "REST",
+          "experience": "project",
+          "description": "Resource-oriented HTTP API contracts",
+          "icon": "assets/skills/icons/rest.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "openapi-swagger",
+          "name": "OpenAPI / Swagger",
+          "experience": "project",
+          "description": "Machine-readable contracts and API documentation",
+          "icon": "assets/skills/icons/openapi-swagger.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "graphql",
+          "name": "GraphQL",
+          "experience": "familiar",
+          "description": "Typed query APIs and schema design",
+          "icon": "assets/skills/icons/graphql.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "grpc",
+          "name": "gRPC",
+          "experience": "familiar",
+          "description": "Contract-first remote procedure calls",
+          "icon": "assets/skills/icons/grpc.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "api-gateways",
+          "name": "API gateways",
+          "experience": "practice",
+          "description": "Routing and service boundary design",
+          "icon": "assets/skills/icons/api-gateways.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "microservices",
+          "name": "Microservices",
+          "experience": "practice",
+          "description": "Service decomposition and integration",
+          "icon": "assets/skills/icons/microservices.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "web3-js",
+          "name": "Web3.js",
+          "experience": "project",
+          "description": "Blockchain-facing API integration",
+          "icon": "assets/skills/icons/web3-js.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "ethers-js",
+          "name": "Ethers.js",
+          "experience": "project",
+          "description": "Ethereum interactions and wallet workflows",
+          "icon": "assets/skills/icons/ethers-js.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "trezor",
+          "name": "Trezor",
+          "experience": "project",
+          "description": "Hardware-wallet integration workflows",
+          "icon": "assets/skills/icons/trezor.svg",
+          "icon_kind": "custom"
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "title": "Frontend & mobile",
+      "description": "Product interfaces and cross-platform experiences.",
+      "skills": [
+        {
+          "id": "react",
+          "name": "React",
+          "experience": "project",
+          "description": "Component-based web applications",
+          "icon": "assets/icons/react.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "next-js",
+          "name": "Next.js",
+          "experience": "project",
+          "description": "Product web apps and rendering architecture",
+          "icon": "assets/skills/icons/next-js.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "html5",
+          "name": "HTML5",
+          "experience": "project",
+          "description": "Semantic and accessible web structure",
+          "icon": "assets/skills/icons/html5.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "css3",
+          "name": "CSS3",
+          "experience": "project",
+          "description": "Responsive layouts and interface styling",
+          "icon": "assets/skills/icons/css3.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "tailwind-css",
+          "name": "Tailwind CSS",
+          "experience": "project",
+          "description": "Utility-first design systems",
+          "icon": "assets/skills/icons/tailwind-css.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "vite",
+          "name": "Vite",
+          "experience": "project",
+          "description": "Frontend build and development tooling",
+          "icon": "assets/skills/icons/vite.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "shadcn-ui",
+          "name": "shadcn/ui",
+          "experience": "project",
+          "description": "Composable application UI components",
+          "icon": "assets/skills/icons/shadcn-ui.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "radix-ui",
+          "name": "Radix UI",
+          "experience": "project",
+          "description": "Accessible headless UI primitives",
+          "icon": "assets/skills/icons/radix-ui.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "refine",
+          "name": "Refine",
+          "experience": "project",
+          "description": "Data-driven administrative interfaces",
+          "icon": "assets/skills/icons/refine.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "flutter",
+          "name": "Flutter",
+          "experience": "project",
+          "description": "Cross-platform mobile and desktop apps",
+          "icon": "assets/icons/flutter.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "responsive-design",
+          "name": "Responsive design",
+          "experience": "practice",
+          "description": "Mobile-first adaptable interfaces",
+          "icon": "assets/skills/icons/responsive-design.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "accessibility",
+          "name": "Accessibility",
+          "experience": "practice",
+          "description": "Semantic controls and inclusive interaction",
+          "icon": "assets/skills/icons/accessibility.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "ui-ux-design",
+          "name": "UI/UX design",
+          "experience": "practice",
+          "description": "Clear workflows and interface hierarchy",
+          "icon": "assets/skills/icons/ui-ux-design.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "design-systems",
+          "name": "Design systems",
+          "experience": "practice",
+          "description": "Consistent components and visual rules",
+          "icon": "assets/skills/icons/design-systems.svg",
+          "icon_kind": "custom"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "title": "Data & storage",
+      "description": "Transactional, document, graph and vector data systems.",
+      "skills": [
+        {
+          "id": "postgresql",
+          "name": "PostgreSQL",
+          "experience": "project",
+          "description": "Relational schemas and transactional state",
+          "icon": "assets/icons/postgresql.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "redis",
+          "name": "Redis",
+          "experience": "project",
+          "description": "Caching, ephemeral state and queues",
+          "icon": "assets/icons/redis.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "mongodb",
+          "name": "MongoDB",
+          "experience": "project",
+          "description": "Document-oriented persistence",
+          "icon": "assets/skills/icons/mongodb.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "mysql",
+          "name": "MySQL",
+          "experience": "project",
+          "description": "Relational data integration",
+          "icon": "assets/skills/icons/mysql.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "mariadb",
+          "name": "MariaDB",
+          "experience": "project",
+          "description": "SQL storage for wallet services",
+          "icon": "assets/skills/icons/mariadb.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "prisma",
+          "name": "Prisma",
+          "experience": "project",
+          "description": "Typed data access and migrations",
+          "icon": "assets/skills/icons/prisma.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "typeorm",
+          "name": "TypeORM",
+          "experience": "project",
+          "description": "Object-relational mapping in NestJS",
+          "icon": "assets/skills/icons/typeorm.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "mongoose",
+          "name": "Mongoose",
+          "experience": "project",
+          "description": "MongoDB schemas and models",
+          "icon": "assets/skills/icons/mongoose.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "sequelize",
+          "name": "Sequelize",
+          "experience": "project",
+          "description": "SQL ORM and data integration",
+          "icon": "assets/skills/icons/sequelize.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "minio",
+          "name": "MinIO",
+          "experience": "project",
+          "description": "S3-compatible object storage",
+          "icon": "assets/skills/icons/minio.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "qdrant",
+          "name": "Qdrant",
+          "experience": "project",
+          "description": "Vector retrieval and AI context",
+          "icon": "assets/skills/icons/qdrant.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "neo4j",
+          "name": "Neo4j",
+          "experience": "familiar",
+          "description": "Graph relationships and retrieval",
+          "icon": "assets/skills/icons/neo4j.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "pgvector",
+          "name": "pgvector",
+          "experience": "familiar",
+          "description": "Vector search in PostgreSQL",
+          "icon": "assets/skills/icons/pgvector.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "data-modeling",
+          "name": "Data modeling",
+          "experience": "practice",
+          "description": "Schemas, constraints and entity relationships",
+          "icon": "assets/skills/icons/data-modeling.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "database-migrations",
+          "name": "Database migrations",
+          "experience": "practice",
+          "description": "Versioned schema evolution",
+          "icon": "assets/skills/icons/database-migrations.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "transactions",
+          "name": "Transactions",
+          "experience": "practice",
+          "description": "Consistency and atomic state transitions",
+          "icon": "assets/skills/icons/transactions.svg",
+          "icon_kind": "custom"
+        }
+      ]
+    },
+    {
+      "id": "realtime",
+      "title": "Real-time & distributed systems",
+      "description": "Messaging, synchronization and asynchronous workloads.",
+      "skills": [
+        {
+          "id": "websockets",
+          "name": "WebSockets",
+          "experience": "project",
+          "description": "Persistent bidirectional communication",
+          "icon": "assets/skills/icons/websockets.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "socket-io",
+          "name": "Socket.IO",
+          "experience": "project",
+          "description": "Event-driven messaging and presence",
+          "icon": "assets/skills/icons/socket-io.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "webrtc",
+          "name": "WebRTC",
+          "experience": "project",
+          "description": "Call signaling and real-time media integration",
+          "icon": "assets/skills/icons/webrtc.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "bullmq",
+          "name": "BullMQ",
+          "experience": "project",
+          "description": "Redis-backed background jobs and retries",
+          "icon": "assets/skills/icons/bullmq.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "rabbitmq",
+          "name": "RabbitMQ",
+          "experience": "familiar",
+          "description": "Message brokers and asynchronous integration",
+          "icon": "assets/skills/icons/rabbitmq.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "firebase-fcm",
+          "name": "Firebase / FCM",
+          "experience": "project",
+          "description": "Push notification delivery and token handling",
+          "icon": "assets/skills/icons/firebase-fcm.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "apns",
+          "name": "APNs",
+          "experience": "project",
+          "description": "Apple push notification workflows",
+          "icon": "assets/skills/icons/apns.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "streaming-systems",
+          "name": "Streaming systems",
+          "experience": "familiar",
+          "description": "Media delivery and communication protocols",
+          "icon": "assets/skills/icons/streaming-systems.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "real-time-synchronization",
+          "name": "Real-time synchronization",
+          "experience": "practice",
+          "description": "Presence, receipts and multi-device state",
+          "icon": "assets/skills/icons/real-time-synchronization.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "event-driven-systems",
+          "name": "Event-driven systems",
+          "experience": "practice",
+          "description": "Domain events and decoupled workflows",
+          "icon": "assets/skills/icons/event-driven-systems.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "distributed-systems",
+          "name": "Distributed systems",
+          "experience": "practice",
+          "description": "Coordination, failure handling and service boundaries",
+          "icon": "assets/skills/icons/distributed-systems.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "concurrency",
+          "name": "Concurrency",
+          "experience": "practice",
+          "description": "Race conditions and exclusive resource access",
+          "icon": "assets/skills/icons/concurrency.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "idempotency",
+          "name": "Idempotency",
+          "experience": "practice",
+          "description": "Safe retried operations and deduplication",
+          "icon": "assets/skills/icons/idempotency.svg",
+          "icon_kind": "custom"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "title": "Architecture & quality",
+      "description": "Engineering methods for maintainable, reliable products.",
+      "skills": [
+        {
+          "id": "system-design",
+          "name": "System design",
+          "experience": "practice",
+          "description": "Service boundaries, data flow and trade-offs",
+          "icon": "assets/skills/icons/system-design.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "clean-architecture",
+          "name": "Clean Architecture",
+          "experience": "practice",
+          "description": "Independent domain and application layers",
+          "icon": "assets/skills/icons/clean-architecture.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "hexagonal-architecture",
+          "name": "Hexagonal Architecture",
+          "experience": "practice",
+          "description": "Ports, adapters and isolated business logic",
+          "icon": "assets/skills/icons/hexagonal-architecture.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "ddd",
+          "name": "DDD",
+          "experience": "practice",
+          "description": "Domain models and bounded contexts",
+          "icon": "assets/skills/icons/ddd.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "cqrs",
+          "name": "CQRS",
+          "experience": "practice",
+          "description": "Separate command and query responsibilities",
+          "icon": "assets/skills/icons/cqrs.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "solid",
+          "name": "SOLID",
+          "experience": "practice",
+          "description": "Maintainable object-oriented design",
+          "icon": "assets/skills/icons/solid.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "design-patterns",
+          "name": "Design patterns",
+          "experience": "practice",
+          "description": "Reusable solutions to recurring problems",
+          "icon": "assets/skills/icons/design-patterns.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "monorepos",
+          "name": "Monorepos",
+          "experience": "practice",
+          "description": "Shared contracts and coordinated application delivery",
+          "icon": "assets/skills/icons/monorepos.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "code-review",
+          "name": "Code review",
+          "experience": "practice",
+          "description": "Correctness, maintainability and engineering feedback",
+          "icon": "assets/skills/icons/code-review.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "unit-testing",
+          "name": "Unit testing",
+          "experience": "practice",
+          "description": "Focused behavior verification",
+          "icon": "assets/skills/icons/unit-testing.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "integration-testing",
+          "name": "Integration testing",
+          "experience": "practice",
+          "description": "Service and storage contract verification",
+          "icon": "assets/skills/icons/integration-testing.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "end-to-end-testing",
+          "name": "End-to-end testing",
+          "experience": "practice",
+          "description": "Critical user-flow validation",
+          "icon": "assets/skills/icons/end-to-end-testing.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "playwright",
+          "name": "Playwright",
+          "experience": "project",
+          "description": "Browser-based application verification",
+          "icon": "assets/skills/icons/playwright.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "jest",
+          "name": "Jest",
+          "experience": "project",
+          "description": "JavaScript and TypeScript automated tests",
+          "icon": "assets/skills/icons/jest.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "performance-engineering",
+          "name": "Performance engineering",
+          "experience": "practice",
+          "description": "Profiling, latency and load analysis",
+          "icon": "assets/skills/icons/performance-engineering.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "debugging",
+          "name": "Debugging",
+          "experience": "practice",
+          "description": "Root-cause analysis and reproducible fixes",
+          "icon": "assets/skills/icons/debugging.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "technical-documentation",
+          "name": "Technical documentation",
+          "experience": "practice",
+          "description": "Architecture notes, contracts and runbooks",
+          "icon": "assets/skills/icons/technical-documentation.svg",
+          "icon_kind": "custom"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "title": "DevOps, Linux & infrastructure",
+      "description": "Delivery automation, self-hosting and production operations.",
+      "skills": [
+        {
+          "id": "linux",
+          "name": "Linux",
+          "experience": "project",
+          "description": "Server administration and shell workflows",
+          "icon": "assets/skills/icons/linux.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "ubuntu",
+          "name": "Ubuntu",
+          "experience": "project",
+          "description": "Linux development and server environments",
+          "icon": "assets/skills/icons/ubuntu.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "wsl",
+          "name": "WSL",
+          "experience": "project",
+          "description": "Linux tooling on Windows",
+          "icon": "assets/skills/icons/wsl.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "docker",
+          "name": "Docker",
+          "experience": "project",
+          "description": "Containerized application packaging",
+          "icon": "assets/icons/docker.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "docker-compose",
+          "name": "Docker Compose",
+          "experience": "project",
+          "description": "Multi-service orchestration",
+          "icon": "assets/skills/icons/docker-compose.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "docker-swarm",
+          "name": "Docker Swarm",
+          "experience": "familiar",
+          "description": "Container cluster orchestration",
+          "icon": "assets/skills/icons/docker-swarm.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "kubernetes",
+          "name": "Kubernetes",
+          "experience": "familiar",
+          "description": "Container scheduling and orchestration",
+          "icon": "assets/skills/icons/kubernetes.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "nginx",
+          "name": "Nginx",
+          "experience": "project",
+          "description": "Reverse proxies, routing and TLS termination",
+          "icon": "assets/skills/icons/nginx.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "git",
+          "name": "Git",
+          "experience": "project",
+          "description": "Version control and release workflows",
+          "icon": "assets/skills/icons/git.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "github",
+          "name": "GitHub",
+          "experience": "project",
+          "description": "Repository collaboration and automation",
+          "icon": "assets/skills/icons/github.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "github-actions",
+          "name": "GitHub Actions",
+          "experience": "project",
+          "description": "CI and repository automation",
+          "icon": "assets/skills/icons/github-actions.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "gitlab",
+          "name": "GitLab",
+          "experience": "project",
+          "description": "Self-hosted source control and CI",
+          "icon": "assets/skills/icons/gitlab.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "gitlab-runner",
+          "name": "GitLab Runner",
+          "experience": "project",
+          "description": "Self-hosted build and deployment runners",
+          "icon": "assets/skills/icons/gitlab-runner.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "ci-cd",
+          "name": "CI/CD",
+          "experience": "practice",
+          "description": "Automated build, test and release pipelines",
+          "icon": "assets/skills/icons/ci-cd.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "opentelemetry",
+          "name": "OpenTelemetry",
+          "experience": "project",
+          "description": "Telemetry instrumentation and observability",
+          "icon": "assets/skills/icons/opentelemetry.svg",
+          "icon_kind": "devicon"
+        },
+        {
+          "id": "monitoring",
+          "name": "Monitoring",
+          "experience": "practice",
+          "description": "Service health, errors and operational visibility",
+          "icon": "assets/skills/icons/monitoring.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "structured-logging",
+          "name": "Structured logging",
+          "experience": "practice",
+          "description": "Inspectable and searchable production events",
+          "icon": "assets/skills/icons/structured-logging.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "tls-https",
+          "name": "TLS / HTTPS",
+          "experience": "practice",
+          "description": "Encrypted transport and certificate configuration",
+          "icon": "assets/skills/icons/tls-https.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "server-deployment",
+          "name": "Server deployment",
+          "experience": "practice",
+          "description": "Production provisioning and application rollout",
+          "icon": "assets/skills/icons/server-deployment.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "load-testing",
+          "name": "Load testing",
+          "experience": "practice",
+          "description": "Capacity and concurrency validation",
+          "icon": "assets/skills/icons/load-testing.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "high-availability",
+          "name": "High availability",
+          "experience": "practice",
+          "description": "Recovery, redundancy and availability design",
+          "icon": "assets/skills/icons/high-availability.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "incident-response",
+          "name": "Incident response",
+          "experience": "practice",
+          "description": "Diagnosis, recovery and operational follow-up",
+          "icon": "assets/skills/icons/incident-response.svg",
+          "icon_kind": "custom"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "title": "Identity & security",
+      "description": "Authentication, permissions and defensive engineering.",
+      "skills": [
+        {
+          "id": "keycloak",
+          "name": "Keycloak",
+          "experience": "project",
+          "description": "Identity provider and authentication integration",
+          "icon": "assets/skills/icons/keycloak.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "jwt",
+          "name": "JWT",
+          "experience": "project",
+          "description": "Token-based authentication",
+          "icon": "assets/skills/icons/jwt.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "otp",
+          "name": "OTP",
+          "experience": "project",
+          "description": "One-time-code authentication flows",
+          "icon": "assets/skills/icons/otp.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "oauth-2-0",
+          "name": "OAuth 2.0",
+          "experience": "familiar",
+          "description": "Delegated authorization concepts",
+          "icon": "assets/skills/icons/oauth-2-0.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "openid-connect",
+          "name": "OpenID Connect",
+          "experience": "familiar",
+          "description": "Federated identity concepts",
+          "icon": "assets/skills/icons/openid-connect.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "rbac",
+          "name": "RBAC",
+          "experience": "practice",
+          "description": "Role-based authorization",
+          "icon": "assets/skills/icons/rbac.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "token-rotation",
+          "name": "Token rotation",
+          "experience": "practice",
+          "description": "Credential lifecycle and session protection",
+          "icon": "assets/skills/icons/token-rotation.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "rate-limiting",
+          "name": "Rate limiting",
+          "experience": "practice",
+          "description": "Abuse resistance and service protection",
+          "icon": "assets/skills/icons/rate-limiting.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "secure-api-design",
+          "name": "Secure API design",
+          "experience": "practice",
+          "description": "Validation, access checks and safe contracts",
+          "icon": "assets/skills/icons/secure-api-design.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "session-management",
+          "name": "Session management",
+          "experience": "practice",
+          "description": "Authentication state and multi-device sessions",
+          "icon": "assets/skills/icons/session-management.svg",
+          "icon_kind": "custom"
+        }
+      ]
+    },
+    {
+      "id": "ai-engineering",
+      "title": "AI engineering & agents",
+      "description": "Integrating model capabilities into software and automation.",
+      "skills": [
+        {
+          "id": "mcp",
+          "name": "MCP",
+          "experience": "project",
+          "description": "Tool and resource interfaces for agents",
+          "icon": "assets/skills/icons/mcp.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "langchain",
+          "name": "LangChain",
+          "experience": "project",
+          "description": "LLM orchestration and integrations",
+          "icon": "assets/skills/icons/langchain.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "langgraph",
+          "name": "LangGraph",
+          "experience": "familiar",
+          "description": "Stateful agent workflow graphs",
+          "icon": "assets/skills/icons/langgraph.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "openai-agents-sdk",
+          "name": "OpenAI Agents SDK",
+          "experience": "project",
+          "description": "Tool-using agent integration",
+          "icon": "assets/skills/icons/openai-agents-sdk.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "elizaos",
+          "name": "ElizaOS",
+          "experience": "project",
+          "description": "Agent framework experiments and plugin work",
+          "icon": "assets/skills/icons/elizaos.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "rag",
+          "name": "RAG",
+          "experience": "practice",
+          "description": "Retrieval-grounded model responses",
+          "icon": "assets/skills/icons/rag.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "embeddings",
+          "name": "Embeddings",
+          "experience": "practice",
+          "description": "Semantic representation and search",
+          "icon": "assets/skills/icons/embeddings.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "vector-retrieval",
+          "name": "Vector retrieval",
+          "experience": "practice",
+          "description": "Similarity-based context retrieval",
+          "icon": "assets/skills/icons/vector-retrieval.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "graph-retrieval",
+          "name": "Graph retrieval",
+          "experience": "practice",
+          "description": "Relationship-aware knowledge retrieval",
+          "icon": "assets/skills/icons/graph-retrieval.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "tool-calling",
+          "name": "Tool calling",
+          "experience": "practice",
+          "description": "Structured model-to-application operations",
+          "icon": "assets/skills/icons/tool-calling.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "agent-orchestration",
+          "name": "Agent orchestration",
+          "experience": "practice",
+          "description": "Multi-step tool and model workflows",
+          "icon": "assets/skills/icons/agent-orchestration.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "llm-integration",
+          "name": "LLM integration",
+          "experience": "practice",
+          "description": "Model APIs, context and output handling",
+          "icon": "assets/skills/icons/llm-integration.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "prompt-engineering",
+          "name": "Prompt engineering",
+          "experience": "practice",
+          "description": "Clear constraints, examples and task specifications",
+          "icon": "assets/skills/icons/prompt-engineering.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "ai-evaluation",
+          "name": "AI evaluation",
+          "experience": "practice",
+          "description": "Checking model output against requirements",
+          "icon": "assets/skills/icons/ai-evaluation.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "n8n",
+          "name": "n8n",
+          "experience": "tool",
+          "description": "Workflow automation and integration tooling",
+          "icon": "assets/skills/icons/n8n.svg",
+          "icon_kind": "simple-icons"
+        }
+      ]
+    },
+    {
+      "id": "ai-tools",
+      "title": "AI coding tools & models",
+      "description": "Agentic and CLI-first development, with human verification.",
+      "skills": [
+        {
+          "id": "openai-codex",
+          "name": "OpenAI Codex",
+          "experience": "tool",
+          "description": "Agentic implementation, repository analysis and terminal workflows",
+          "icon": "assets/skills/icons/openai-codex.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "claude-code",
+          "name": "Claude Code",
+          "experience": "tool",
+          "description": "Codebase reasoning and CLI-based development",
+          "icon": "assets/skills/icons/claude-code.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "claude",
+          "name": "Claude",
+          "experience": "tool",
+          "description": "Architecture exploration and technical reasoning",
+          "icon": "assets/skills/icons/claude.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "github-copilot",
+          "name": "GitHub Copilot",
+          "experience": "tool",
+          "description": "Inline coding assistance and developer workflows",
+          "icon": "assets/skills/icons/github-copilot.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "cursor",
+          "name": "Cursor",
+          "experience": "tool",
+          "description": "AI-assisted editor and codebase navigation",
+          "icon": "assets/skills/icons/cursor.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "google-antigravity",
+          "name": "Google Antigravity",
+          "experience": "tool",
+          "description": "Agent-assisted software development environment",
+          "icon": "assets/skills/icons/google-antigravity.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "opencode",
+          "name": "OpenCode",
+          "experience": "tool",
+          "description": "Terminal-based coding agents",
+          "icon": "assets/skills/icons/opencode.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "ai-coding-clis",
+          "name": "AI coding CLIs",
+          "experience": "tool",
+          "description": "Terminal-first model-assisted engineering",
+          "icon": "assets/skills/icons/ai-coding-clis.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "chatgpt",
+          "name": "ChatGPT",
+          "experience": "tool",
+          "description": "Planning, debugging, research and development support",
+          "icon": "assets/skills/icons/chatgpt.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "gpt-models",
+          "name": "GPT models",
+          "experience": "tool",
+          "description": "General reasoning, coding and tool integration",
+          "icon": "assets/skills/icons/gpt-models.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "claude-models",
+          "name": "Claude models",
+          "experience": "tool",
+          "description": "Code reasoning and long-context analysis",
+          "icon": "assets/skills/icons/claude-models.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "gemini-models",
+          "name": "Gemini models",
+          "experience": "familiar",
+          "description": "Multimodal and coding model workflows",
+          "icon": "assets/skills/icons/gemini-models.svg",
+          "icon_kind": "simple-icons"
+        },
+        {
+          "id": "open-weight-llms",
+          "name": "Open-weight LLMs",
+          "experience": "familiar",
+          "description": "Local and open model ecosystem exploration",
+          "icon": "assets/skills/icons/open-weight-llms.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "ai-assisted-code-review",
+          "name": "AI-assisted code review",
+          "experience": "practice",
+          "description": "Review generated changes for correctness and regressions",
+          "icon": "assets/skills/icons/ai-assisted-code-review.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "ai-assisted-refactoring",
+          "name": "AI-assisted refactoring",
+          "experience": "practice",
+          "description": "Incremental changes with tests and human oversight",
+          "icon": "assets/skills/icons/ai-assisted-refactoring.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "multi-model-workflows",
+          "name": "Multi-model workflows",
+          "experience": "practice",
+          "description": "Choose models by task and validate results",
+          "icon": "assets/skills/icons/multi-model-workflows.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "context-engineering",
+          "name": "Context engineering",
+          "experience": "practice",
+          "description": "Repository instructions and relevant task context",
+          "icon": "assets/skills/icons/context-engineering.svg",
+          "icon_kind": "custom"
+        }
+      ]
+    },
+    {
+      "id": "founder",
+      "title": "Founder, business & product",
+      "description": "Connecting engineering execution to customer and business needs.",
+      "skills": [
+        {
+          "id": "technical-leadership",
+          "name": "Technical leadership",
+          "experience": "practice",
+          "description": "Architecture direction, reviews and engineering delivery",
+          "icon": "assets/skills/icons/technical-leadership.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "product-strategy",
+          "name": "Product strategy",
+          "experience": "practice",
+          "description": "Product direction and problem selection",
+          "icon": "assets/skills/icons/product-strategy.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "product-ownership",
+          "name": "Product ownership",
+          "experience": "practice",
+          "description": "End-to-end feature and outcome responsibility",
+          "icon": "assets/skills/icons/product-ownership.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "mvp-scoping",
+          "name": "MVP scoping",
+          "experience": "practice",
+          "description": "Prioritize minimum useful product functionality",
+          "icon": "assets/skills/icons/mvp-scoping.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "product-discovery",
+          "name": "Product discovery",
+          "experience": "practice",
+          "description": "Explore user needs and product assumptions",
+          "icon": "assets/skills/icons/product-discovery.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "requirements-analysis",
+          "name": "Requirements analysis",
+          "experience": "practice",
+          "description": "Translate needs into actionable requirements",
+          "icon": "assets/skills/icons/requirements-analysis.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "prds",
+          "name": "PRDs",
+          "experience": "practice",
+          "description": "Document product scope, behavior and acceptance criteria",
+          "icon": "assets/skills/icons/prds.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "roadmapping",
+          "name": "Roadmapping",
+          "experience": "practice",
+          "description": "Sequence product and engineering priorities",
+          "icon": "assets/skills/icons/roadmapping.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "prioritization",
+          "name": "Prioritization",
+          "experience": "practice",
+          "description": "Balance impact, risk and implementation cost",
+          "icon": "assets/skills/icons/prioritization.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "business-model-design",
+          "name": "Business model design",
+          "experience": "practice",
+          "description": "Revenue mechanics and value propositions",
+          "icon": "assets/skills/icons/business-model-design.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "pricing-strategy",
+          "name": "Pricing strategy",
+          "experience": "practice",
+          "description": "Explore subscriptions, monetization and pricing trade-offs",
+          "icon": "assets/skills/icons/pricing-strategy.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "marketplace-strategy",
+          "name": "Marketplace strategy",
+          "experience": "practice",
+          "description": "Supply, demand and platform discovery",
+          "icon": "assets/skills/icons/marketplace-strategy.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "customer-experience",
+          "name": "Customer experience",
+          "experience": "practice",
+          "description": "Improve customer and provider workflows",
+          "icon": "assets/skills/icons/customer-experience.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "crm-workflows",
+          "name": "CRM workflows",
+          "experience": "practice",
+          "description": "Customer lifecycle and service management",
+          "icon": "assets/skills/icons/crm-workflows.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "release-planning",
+          "name": "Release planning",
+          "experience": "practice",
+          "description": "Coordinate delivery, verification and rollout",
+          "icon": "assets/skills/icons/release-planning.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "cross-functional-execution",
+          "name": "Cross-functional execution",
+          "experience": "practice",
+          "description": "Connect engineering, product and operations",
+          "icon": "assets/skills/icons/cross-functional-execution.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "business-process-analysis",
+          "name": "Business process analysis",
+          "experience": "practice",
+          "description": "Map workflows and operational constraints",
+          "icon": "assets/skills/icons/business-process-analysis.svg",
+          "icon_kind": "custom"
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "title": "Marketing & growth",
+      "description": "Founder-led launch and distribution planning; not claimed campaign results.",
+      "skills": [
+        {
+          "id": "go-to-market-strategy",
+          "name": "Go-to-market strategy",
+          "experience": "practice",
+          "description": "Plan product launch and market entry",
+          "icon": "assets/skills/icons/go-to-market-strategy.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "positioning",
+          "name": "Positioning",
+          "experience": "practice",
+          "description": "Define product differentiation and value",
+          "icon": "assets/skills/icons/positioning.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "brand-identity",
+          "name": "Brand identity",
+          "experience": "practice",
+          "description": "Align product voice and visual identity",
+          "icon": "assets/skills/icons/brand-identity.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "landing-page-strategy",
+          "name": "Landing page strategy",
+          "experience": "practice",
+          "description": "Communicate value and conversion paths",
+          "icon": "assets/skills/icons/landing-page-strategy.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "content-strategy",
+          "name": "Content strategy",
+          "experience": "practice",
+          "description": "Plan useful content across distribution channels",
+          "icon": "assets/skills/icons/content-strategy.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "social-media-marketing",
+          "name": "Social media marketing",
+          "experience": "practice",
+          "description": "Plan channel-specific product communication",
+          "icon": "assets/skills/icons/social-media-marketing.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "product-led-growth",
+          "name": "Product-led growth",
+          "experience": "practice",
+          "description": "Design acquisition and activation through product use",
+          "icon": "assets/skills/icons/product-led-growth.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "growth-experimentation",
+          "name": "Growth experimentation",
+          "experience": "practice",
+          "description": "Frame hypotheses and assess conversion signals",
+          "icon": "assets/skills/icons/growth-experimentation.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "customer-acquisition",
+          "name": "Customer acquisition",
+          "experience": "practice",
+          "description": "Explore channels and acquisition cost trade-offs",
+          "icon": "assets/skills/icons/customer-acquisition.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "retention-strategy",
+          "name": "Retention strategy",
+          "experience": "practice",
+          "description": "Design recurring value and lifecycle touchpoints",
+          "icon": "assets/skills/icons/retention-strategy.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "market-research",
+          "name": "Market research",
+          "experience": "practice",
+          "description": "Study competitors, pricing and customer segments",
+          "icon": "assets/skills/icons/market-research.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "marketing-automation",
+          "name": "Marketing automation",
+          "experience": "practice",
+          "description": "Connect content and operational workflows",
+          "icon": "assets/skills/icons/marketing-automation.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "seo-fundamentals",
+          "name": "SEO fundamentals",
+          "experience": "familiar",
+          "description": "Search visibility and useful web content",
+          "icon": "assets/skills/icons/seo-fundamentals.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "analytics-kpis",
+          "name": "Analytics & KPIs",
+          "experience": "practice",
+          "description": "Define measurement for product and growth decisions",
+          "icon": "assets/skills/icons/analytics-kpis.svg",
+          "icon_kind": "custom"
+        }
+      ]
+    },
+    {
+      "id": "soft",
+      "title": "Leadership & soft skills",
+      "description": "Working practices rather than numeric proficiency claims.",
+      "skills": [
+        {
+          "id": "ownership",
+          "name": "Ownership",
+          "experience": "practice",
+          "description": "Take responsibility from problem to delivery",
+          "icon": "assets/skills/icons/ownership.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "systems-thinking",
+          "name": "Systems thinking",
+          "experience": "practice",
+          "description": "Understand dependencies and downstream effects",
+          "icon": "assets/skills/icons/systems-thinking.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "problem-solving",
+          "name": "Problem solving",
+          "experience": "practice",
+          "description": "Break complex issues into tractable decisions",
+          "icon": "assets/skills/icons/problem-solving.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "analytical-thinking",
+          "name": "Analytical thinking",
+          "experience": "practice",
+          "description": "Evaluate evidence and compare trade-offs",
+          "icon": "assets/skills/icons/analytical-thinking.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "communication",
+          "name": "Communication",
+          "experience": "practice",
+          "description": "Explain technical decisions and requirements",
+          "icon": "assets/skills/icons/communication.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "collaboration",
+          "name": "Collaboration",
+          "experience": "practice",
+          "description": "Work across engineering and product roles",
+          "icon": "assets/skills/icons/collaboration.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "decision-making",
+          "name": "Decision making",
+          "experience": "practice",
+          "description": "Choose practical paths under constraints",
+          "icon": "assets/skills/icons/decision-making.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "adaptability",
+          "name": "Adaptability",
+          "experience": "practice",
+          "description": "Adjust plans as new evidence emerges",
+          "icon": "assets/skills/icons/adaptability.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "continuous-learning",
+          "name": "Continuous learning",
+          "experience": "practice",
+          "description": "Develop skills through research and practice",
+          "icon": "assets/skills/icons/continuous-learning.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "execution-under-ambiguity",
+          "name": "Execution under ambiguity",
+          "experience": "practice",
+          "description": "Turn incomplete requirements into concrete next steps",
+          "icon": "assets/skills/icons/execution-under-ambiguity.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "time-management",
+          "name": "Time management",
+          "experience": "practice",
+          "description": "Prioritize work and protect execution time",
+          "icon": "assets/skills/icons/time-management.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "feedback-mentoring",
+          "name": "Feedback & mentoring",
+          "experience": "practice",
+          "description": "Share technical feedback and support team growth",
+          "icon": "assets/skills/icons/feedback-mentoring.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "attention-to-detail",
+          "name": "Attention to detail",
+          "experience": "practice",
+          "description": "Check edge cases, contracts and release quality",
+          "icon": "assets/skills/icons/attention-to-detail.svg",
+          "icon_kind": "custom"
+        },
+        {
+          "id": "resilience",
+          "name": "Resilience",
+          "experience": "practice",
+          "description": "Iterate through technical and product setbacks",
+          "icon": "assets/skills/icons/resilience.svg",
+          "icon_kind": "custom"
+        }
+      ]
+    }
+  ]
+}

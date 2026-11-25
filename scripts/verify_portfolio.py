@@ -23,3 +23,23 @@ data=json.loads((root/"assets/activity.json").read_text())
 assert data["total_commits"]==sum(data["days"].values())
 assert data["active_days"]==len(data["days"])
 print("Portfolio paths, SVG XML, and activity counts verified.")
+
+# Validate the shared skills catalog and every individual icon.
+skills=json.loads((root/"assets/skills.json").read_text(encoding="utf-8"))
+assert skills["schema_version"]==1
+ids=set()
+groups=set()
+for group in skills["categories"]:
+    assert group["id"] not in groups and group["skills"]
+    groups.add(group["id"])
+    for skill in group["skills"]:
+        assert skill["id"] not in ids
+        ids.add(skill["id"])
+        assert skill["experience"] in skills["experience_labels"]
+        assert skill["name"] and skill["description"]
+        assert skill["icon_kind"] in ("devicon","simple-icons","custom")
+        icon=(root/skill["icon"]).resolve()
+        assert icon.is_relative_to(root) and icon.suffix==".svg" and icon.is_file(), skill["icon"]
+        tree=ET.parse(icon)
+        assert tree.getroot().tag.endswith("svg"), skill["icon"]
+print(f"Verified {len(ids)} skills across {len(groups)} disciplines and every SVG icon.")
