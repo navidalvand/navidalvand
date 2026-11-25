@@ -33,6 +33,7 @@ jobs:
           cp -r assets resume dist/
           touch dist/.nojekyll
           python3 scripts/verify_portfolio.py dist
+          node --check dist/app.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -17,8 +17,17 @@ class Check(HTMLParser):
                 path=(root/unquote(u.path)).resolve()
                 assert path.is_relative_to(root) and path.exists(), f"Missing or unsafe local path: {v}"
 Check().feed((root/"index.html").read_text())
-for f in (root/"assets").glob("*.svg"):
-    ET.parse(f)
+def parse_svg(path):
+    try:
+        tree=ET.parse(path)
+    except ET.ParseError as error:
+        raise SystemExit(f"Invalid SVG {path.relative_to(root)}: {error}") from error
+    if not tree.getroot().tag.endswith("svg"):
+        raise SystemExit(f"Not an SVG: {path.relative_to(root)}")
+    return tree
+
+for f in sorted((root/"assets").rglob("*.svg")):
+    parse_svg(f)
 data=json.loads((root/"assets/activity.json").read_text())
 assert data["total_commits"]==sum(data["days"].values())
 assert data["active_days"]==len(data["days"])
@@ -40,6 +49,6 @@ for group in skills["categories"]:
         assert skill["icon_kind"] in ("devicon","simple-icons","custom")
         icon=(root/skill["icon"]).resolve()
         assert icon.is_relative_to(root) and icon.suffix==".svg" and icon.is_file(), skill["icon"]
-        tree=ET.parse(icon)
+        tree=parse_svg(icon)
         assert tree.getroot().tag.endswith("svg"), skill["icon"]
 print(f"Verified {len(ids)} skills across {len(groups)} disciplines and every SVG icon.")
