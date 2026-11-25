@@ -17,3 +17,7 @@ Preview SVGs in a browser at desktop and mobile widths. Check GitHub's rendered 
 - other-work.svg: Dorj and MCP SDK highlights.
 - github-stats.svg: public repository metadata snapshot; counts are not contribution totals or a measure of skill.
 - The public résumé lives in `resume/` in Markdown and a recreated PDF. Phone and birth year are not included.
+
+## Statistics maintenance
+
+`scripts/refresh_stats.py` uses GitHub's public repository-list endpoint, filters public repositories owned by this account, and updates the SVG and JSON only when the counts change. The workflow is scheduled weekly and can also be run manually. No personal access token, external chart service, or private repository data is required. The snapshot date reflects the last data change, not a daily contribution total.

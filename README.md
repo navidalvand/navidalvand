@@ -60,9 +60,9 @@ Go and TypeScript are my primary tools. I use Node.js for service-oriented appli
 
 ## 04 / GitHub in numbers
 
-<img src="./assets/github-stats.svg" width="100%" alt="18 public repositories: 10 JavaScript, 5 TypeScript, 1 C, 2 unclassified. Created by year: 1 in 2022, 4 in 2023, 9 in 2024, 4 in 2025.">
+<img src="./assets/github-stats.svg" width="100%" alt="Public GitHub repository count, primary language distribution and repository creation years.">
 
-Public repository metadata snapshot, 25 Nov 2026. Includes repositories hosted under my account, including this profile; primary language is counted once per repository. This is not a measure of commits, private work or skill level.
+[Public repository data](./assets/github-stats.json) (snapshot date shown above). Includes repositories hosted under my account, including this profile; primary language is counted once per repository. This is not a measure of commits, private work or skill level.
 
 [Contribution activity ↗](https://github.com/navidalvand#js-contribution-activity) · [Repository history ↗](https://github.com/navidalvand?tab=repositories)
 
