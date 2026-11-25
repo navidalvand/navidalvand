@@ -6,6 +6,8 @@ I build products across the full stack, with a backend-first approach. I work on
 
 ---
 
+[Portfolio & interactive case studies ↗](https://navidalvand.github.io/navidalvand/) · [Portfolio source](./site/) (Pages deployment requires activation)
+
 ## 01 / Career
 
 <img src="./assets/career.svg" width="100%" alt="Vaghty founder and lead engineer since 2026; former PetaProc CTO, 2024–2026; Dorj backend engineer in 2024; Sarafraz backend intern in 2022.">
@@ -38,9 +40,22 @@ Messaging infrastructure, backend APIs, real-time communication, authentication,
 
 **PetaProc MCP SDK** — Developer SDK for exposing NestJS endpoints as MCP tools and resources; reusable server composition for tool-using agents.
 
+<details>
+<summary><b>Explore product architecture diagrams</b></summary>
+
+<img src="./assets/architecture-vaghty.svg" width="100%" alt="Conceptual Vaghty booking architecture">
+<img src="./assets/architecture-joow.svg" width="100%" alt="Conceptual JOOW messaging architecture">
+<img src="./assets/architecture-mcp.svg" width="100%" alt="Conceptual MCP SDK architecture">
+
+[Interactive case studies (portfolio source)](./site/)
+
+</details>
+
 ## 03 / Engineering toolkit
 
 <img src="./assets/engineering.svg" width="100%" alt="Backend: Go, Node.js, NestJS. Web and mobile: TypeScript, React, Flutter. Data and real-time: PostgreSQL, Redis, WebSockets. Delivery and AI: Docker, CI/CD, LLM tooling.">
+
+<p><img src="./assets/icons/go.svg" width="40" height="40" alt="Go" title="Go"> &nbsp; <img src="./assets/icons/typescript.svg" width="40" height="40" alt="TypeScript" title="TypeScript"> &nbsp; <img src="./assets/icons/nestjs.svg" width="40" height="40" alt="NestJS" title="NestJS"> &nbsp; <img src="./assets/icons/react.svg" width="40" height="40" alt="React" title="React"> &nbsp; <img src="./assets/icons/docker.svg" width="40" height="40" alt="Docker" title="Docker"> &nbsp; <img src="./assets/icons/postgresql.svg" width="40" height="40" alt="PostgreSQL" title="PostgreSQL"> &nbsp; <img src="./assets/icons/redis.svg" width="40" height="40" alt="Redis" title="Redis"> &nbsp; <img src="./assets/icons/flutter.svg" width="40" height="40" alt="Flutter" title="Flutter"></p>
 
 Go and TypeScript are my primary tools. I use Node.js for service-oriented applications, Go for backend systems, and React or Next.js for the web.
 
@@ -65,6 +80,17 @@ Go and TypeScript are my primary tools. I use Node.js for service-oriented appli
 [Public repository data](./assets/github-stats.json) (snapshot date shown above). Includes repositories hosted under my account, including this profile; primary language is counted once per repository. This is not a measure of commits, private work or skill level.
 
 [Contribution activity ↗](https://github.com/navidalvand#js-contribution-activity) · [Repository history ↗](https://github.com/navidalvand?tab=repositories)
+
+<img src="./assets/activity-heatmap.svg" width="100%" alt="Animated 365-day public commit activity calendar">
+
+<details>
+<summary><b>Explore isometric activity terrain</b></summary>
+
+<img src="./assets/activity-3d.svg" width="100%" alt="Isometric visualization of daily public commit counts">
+
+</details>
+
+[Activity data and scope](./assets/activity.json). Counts include only author-matched commits reachable from default branches of public repositories owned by this account, deduplicated by SHA. They do not represent private work, pull requests, issues, or the complete GitHub contribution graph.
 
 ## 05 / Public code
 

@@ -1,0 +1,11 @@
+{
+  "start": "2025-11-26",
+  "end": "2026-11-25",
+  "public_repositories_scanned": 18,
+  "total_commits": 4,
+  "active_days": 1,
+  "days": {
+    "2026-11-25": 4
+  },
+  "scope": "Author-matched default-branch commits in public repositories owned by navidalvand; deduplicated by SHA. Not GitHub's full contribution graph."
+}
