@@ -1,0 +1,123 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 5542 >>
+stream
+0.06 0.10 0.13 rg 0 745 595 97 re f
+BT /F2 27 Tf 1 1 1 rg 1 0 0 1 40 804 Tm (NAVID ALVAND) Tj ET
+BT /F1 12 Tf 0.48 0.88 0.76 rg 1 0 0 1 40 781 Tm (SENIOR BACKEND DEVELOPER / TECHNICAL TEAM LEAD) Tj ET
+BT /F1 10 Tf 1 1 1 rg 1 0 0 1 40 761 Tm (navidalvand@gmail.com  |  github.com/navidalvand  |  vaghty.com) Tj ET
+BT /F2 12 Tf 0.10 0.40 0.36 rg 1 0 0 1 40 705 Tm (PROFILE) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 689 Tm (Backend-focused engineer and former CTO with 5 years of hands-on software engineering experience,) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 675.9 Tm (specializing in NestJS, Node.js, TypeScript and JavaScript. Build modular services, real-time) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 662.8 Tm (communication systems, async processing pipelines and production platforms. Lead architecture, code) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 649.6999999999999 Tm (quality and delivery, with additional depth in Go, DevOps infrastructure and agentic AI.) Tj ET
+BT /F2 12 Tf 0.10 0.40 0.36 rg 1 0 0 1 40 629.5999999999999 Tm (CORE STRENGTHS) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 613.5999999999999 Tm (NestJS / Node.js / TypeScript / JavaScript / API Design / System Architecture / PostgreSQL / Redis /) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 600.4999999999999 Tm (Real-time Messaging / Microservices / DevOps / CI/CD / Technical Leadership) Tj ET
+BT /F2 12 Tf 0.10 0.40 0.36 rg 1 0 0 1 40 580.3999999999999 Tm (PROFESSIONAL EXPERIENCE) Tj ET
+BT /F2 10.5 Tf 0.10 0.15 0.18 rg 1 0 0 1 40 558.3999999999999 Tm (Founder & Lead Software Engineer - Vaghty | May 2026 - Present) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 543.8999999999999 Tm (Appointment booking platform / Go backend / Next.js web app) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 530.7999999999998 Tm (- Architecture & ownership: Founded the product and lead engineering decisions across backend design,) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 517.6999999999998 Tm (provider workflows, infrastructure and frontend delivery.) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 504.5999999999998 Tm (- Booking engine: Built Go services for OTP auth, rotating tokens, availability, concurrent booking) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 491.4999999999998 Tm (holds, expiration, confirmation and cancellation.) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 478.39999999999975 Tm (- Data & delivery: Designed PostgreSQL booking/CRM models and integrated Redis, MinIO, Docker Compose,) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 465.2999999999997 Tm (tests, structured logging, Linux, Nginx and TLS.) Tj ET
+BT /F2 10.5 Tf 0.10 0.15 0.18 rg 1 0 0 1 40 446.1999999999997 Tm (Former Co-Founder & CTO - PetaProc | Oct 2024 - 2026) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 431.6999999999997 Tm (Selected product: JOOW \(https://joow.ir\) / Technical leadership / NestJS platforms / AI-native R&D) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 418.5999999999997 Tm (- Backend architecture: Led NestJS/TypeScript development and refactoring across 17+ feature modules) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 405.49999999999966 Tm (using DDD, Clean Architecture, CQRS, domain events and Prisma/PostgreSQL.) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 392.39999999999964 Tm (- Real-time systems: Engineered JOOW messaging with WebSockets, Socket.IO and WebRTC signaling:) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 379.2999999999996 Tm (delivery/read state, presence, call flows and multi-device sessions.) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 366.1999999999996 Tm (- Reliability: Built Redis/BullMQ workers, scheduling and FCM/APNs notifications with retries, token) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 353.09999999999957 Tm (lifecycle management and failure handling.) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 339.99999999999955 Tm (- Leadership & tools: Directed code reviews, releases and applied R&D; published @petaproc/mcp-sdk for) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 326.8999999999995 Tm (composable NestJS-to-MCP integrations.) Tj ET
+BT /F2 10.5 Tf 0.10 0.15 0.18 rg 1 0 0 1 40 307.7999999999995 Tm (Backend Software Engineer - Dorj Wallet | Jun - Oct 2024) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 293.2999999999995 Tm (dorj.io \(https://dorj.io\) / Web3 / hardware wallet infrastructure) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 280.1999999999995 Tm (- Backend APIs: Built secure NestJS/TypeScript services with TypeORM/MariaDB, Web3.js, Ethers.js and) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 267.09999999999945 Tm (Trezor workflows.) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 253.99999999999946 Tm (- Integrity & integration: Worked on transaction consistency, concurrency, OpenAPI, WebSocket) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 240.89999999999947 Tm (integrations and Docker/Linux deployment.) Tj ET
+BT /F2 10.5 Tf 0.10 0.15 0.18 rg 1 0 0 1 40 221.79999999999947 Tm (Backend Engineering Intern - Sarafraz Holding | Feb - Oct 2022) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 207.29999999999947 Tm (Developed and documented Express.js REST APIs and data integrations using TypeScript/JavaScript,) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 194.19999999999948 Tm (MongoDB/Mongoose, MySQL/Sequelize and Swagger.) Tj ET
+0.2 0.3 0.33 RG 40 32 m 555 32 l S
+BT /F1 8 Tf 0.2 0.3 0.33 rg 1 0 0 1 40 20 Tm (PUBLIC RESUME / 2026  -  1 OF 2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 4620 >>
+stream
+0.06 0.10 0.13 rg 0 745 595 97 re f
+BT /F2 27 Tf 1 1 1 rg 1 0 0 1 40 804 Tm (NAVID ALVAND) Tj ET
+BT /F1 12 Tf 0.48 0.88 0.76 rg 1 0 0 1 40 781 Tm (SENIOR BACKEND DEVELOPER / TECHNICAL TEAM LEAD) Tj ET
+BT /F1 10 Tf 1 1 1 rg 1 0 0 1 40 761 Tm (navidalvand@gmail.com  |  github.com/navidalvand  |  vaghty.com) Tj ET
+BT /F2 12 Tf 0.10 0.40 0.36 rg 1 0 0 1 40 708 Tm (SELECTED PRODUCTS & ENGINEERING WORK) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 692 Tm (- JOOW: NestJS, Socket.IO, WebRTC, Redis/BullMQ; messaging infrastructure for presence, typing,) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 678.9 Tm (delivery/read receipts, real-time call signaling, participant state, reconnect handling, multi-device) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 665.8 Tm (sessions and AI-assisted conversational workflows.) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 652.6999999999999 Tm (- PetaProc MCP SDK: NestJS, TypeScript, Model Context Protocol; published a developer integration SDK) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 639.5999999999999 Tm (to expose NestJS endpoints as MCP tools and resources, with reusable server and subserver composition) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 626.4999999999999 Tm (for tool-using agents.) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 613.3999999999999 Tm (- Vaghty: Go, PostgreSQL, Redis, Next.js; provider-oriented appointment engine with service catalogs,) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 600.2999999999998 Tm (time-slot availability, concurrency-sensitive holds, booking lifecycle, authentication and business) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 587.1999999999998 Tm (profiles.) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 574.0999999999998 Tm (- Dorj Wallet: NestJS, TypeORM, MariaDB, Web3; wallet APIs and blockchain/hardware-wallet integrations) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 560.9999999999998 Tm (with a focus on transactional correctness, API contracts and operational stability.) Tj ET
+BT /F2 12 Tf 0.10 0.40 0.36 rg 1 0 0 1 40 540.8999999999997 Tm (TECHNICAL EXPERTISE) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 521.8999999999997 Tm (Backend & APIs: NestJS, Node.js, TypeScript, JavaScript, Express.js, REST, OpenAPI/Swagger, GraphQL,) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 508.7999999999997 Tm (gRPC, microservices, API gateways) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 495.6999999999997 Tm (Architecture: Clean / Hexagonal Architecture, DDD, SOLID, CQRS, event-driven design, transactions,) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 482.5999999999997 Tm (concurrency, idempotency, integration testing) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 469.49999999999966 Tm (Data & messaging: PostgreSQL, Prisma, TypeORM, MongoDB, MySQL/MariaDB, Redis, RabbitMQ, BullMQ,) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 456.39999999999964 Tm (Sequelize, Redis workers) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 443.2999999999996 Tm (Real-time & streaming: WebRTC, WebSockets, Socket.IO, signaling, multi-session synchronization,) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 430.1999999999996 Tm (messaging protocols, streaming/media servers) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 417.09999999999957 Tm (DevOps & platforms: Kubernetes, Docker, Docker Swarm, self-hosted GitLab + Runners, CI/CD, GitHub) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 403.99999999999955 Tm (Actions, Linux, Nginx/TLS, MinIO) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 390.8999999999995 Tm (Identity & security: Keycloak, JWT, OAuth 2.0 / OIDC concepts, OTP, token rotation, RBAC, rate) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 377.7999999999995 Tm (limiting, service integrations) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 364.6999999999995 Tm (Agentic AI & RAG: MCP, LangChain, LangGraph, embeddings, vector + graph retrieval, Neo4j, Qdrant,) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 351.59999999999945 Tm (pgvector, RAG, tool calling) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 338.49999999999943 Tm (Other / self-study: Go, Python/FastAPI, React, Next.js, Flutter/Dart \(project experience\).) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 325.3999999999994 Tm (Self-studied: Rust, C, C#, Kotlin) Tj ET
+BT /F1 9.1 Tf 0.16 0.20 0.23 rg 1 0 0 1 40 309.2999999999994 Tm (Public edition adapted from the supplied 2026 rsum; personal phone and birth year omitted.) Tj ET
+0.2 0.3 0.33 RG 40 32 m 555 32 l S
+BT /F1 8 Tf 0.2 0.3 0.33 rg 1 0 0 1 40 20 Tm (PUBLIC RESUME / 2026  -  2 OF 2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000191 00000 n 
+0000000266 00000 n 
+0000000402 00000 n 
+0000005995 00000 n 
+0000006131 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+10802
+%%EOF
