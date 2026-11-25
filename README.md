@@ -1,27 +1,58 @@
-# 💫 About Me:
-I'm Open To Work Right Now
+<img src="./assets/profile-header.svg" alt="Navid Alvand — Full-stack engineer and founder" width="100%">
 
+I build software products from the first API and data model to the interface, deployment and production operations. My background is in backend engineering; my work extends across the full stack, with a focus on making complex systems straightforward to use and maintain.
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/navidalvand) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/navidalvand) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/navidalvand) 
+[**Vaghty**](https://vaghty.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/navidalvand/) &nbsp;·&nbsp; [X](https://x.com/navidalvand)
 
-# 💻 Tech Stack:
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white) ![Fastify](https://img.shields.io/badge/fastify-%23000000.svg?style=for-the-badge&logo=fastify&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Pug](https://img.shields.io/badge/Pug-FFF?style=for-the-badge&logo=pug&logoColor=A86454) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white) 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=navidalvand&theme=calm&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=navidalvand&theme=calm&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=navidalvand&theme=calm&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## 01 / Building
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=navidalvand&theme=juicyfresh&no-frame=false&no-bg=false&margin-w=4)
+### [Vaghty — وقتی](https://vaghty.com)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=tokyonight)
+**Founder · Full-stack engineer**
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=navidalvand&limit=5&theme=dark&combine_all_yearly_contributions=true)
+An appointment-booking platform for service businesses. I'm building the product and its underlying engineering systems, from booking flows and business management to the web experience and operational tooling.
+
+**Go · Next.js · TypeScript · PostgreSQL · Redis · Docker**
+
+### [Joow](https://joow.ir)
+
+Previous engineering work on a messaging product. My work covered backend APIs, real-time communication, background processing, authentication and notification systems.
+
+**NestJS · TypeScript · Prisma · PostgreSQL · Redis · Socket.IO**
+
+## 02 / Engineering
+
+| Discipline | Tools & technologies |
+| :--- | :--- |
+| **Backend & APIs** | Go, Node.js, TypeScript, NestJS, Express, Fastify, REST, OpenAPI |
+| **Web & mobile** | React, Next.js, Tailwind CSS, Flutter |
+| **Data & identity** | PostgreSQL, MongoDB, Redis, Prisma, TypeORM, Keycloak |
+| **Real-time & async** | WebSockets, Socket.IO, WebRTC, BullMQ |
+| **Infrastructure** | Linux, Docker, Nginx, CI/CD, OpenTelemetry |
+| **Applied AI** | LLM integrations, agent frameworks, MCP, retrieval-augmented generation, Qdrant |
+
+Go and TypeScript are my primary tools. I choose the rest based on the problem rather than the stack.
+
+## 03 / Public code
+
+A selection of earlier public repositories, covering API development and server-side fundamentals. Much of my more recent product work lives in private repositories.
+
+| Repository | Focus |
+| :--- | :--- |
+| [Project Manager](https://github.com/navidalvand/Project-Manager) | Project management API with Express, MongoDB and JWT |
+| [Store Project](https://github.com/navidalvand/store-project) | Commerce-oriented backend with authentication, Redis and validation |
+| [URL Shortener](https://github.com/navidalvand/urlshorter) | URL service using Express, MongoDB and Redis |
+| [Nest Todo](https://github.com/navidalvand/nest-todo) | Modular NestJS API with MongoDB and authentication |
+| [Express Cluster](https://github.com/navidalvand/express-cluster) | Node.js clustering and load-testing experiments |
+
+[Explore all public repositories →](https://github.com/navidalvand?tab=repositories)
+
+## 04 / How I work
+
+I care about clear system boundaries, predictable state, useful tests, and software that can be operated after it ships. As a founder, I also care about whether the product solves a real problem — not just whether the architecture is interesting.
+
+I'm particularly interested in backend architecture, real-time products, applied AI and the intersection of software engineering and product development.
 
 ---
-[![](https://visitcount.itsvg.in/api?id=navidalvand&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+**Let's connect.** [LinkedIn](https://www.linkedin.com/in/navidalvand/) · [X](https://x.com/navidalvand) · [GitHub](https://github.com/navidalvand)
