@@ -1,58 +1,76 @@
-<img src="./assets/profile-header.svg" alt="Navid Alvand — Full-stack engineer and founder" width="100%">
+<img src="./assets/profile-header.svg" alt="Navid Alvand — full-stack engineer and founder" width="100%">
 
-I build software products from the first API and data model to the interface, deployment and production operations. My background is in backend engineering; my work extends across the full stack, with a focus on making complex systems straightforward to use and maintain.
+I build products across the full stack, with a backend-first approach. I work on the data model, API, interface and infrastructure, and stay involved when the software reaches production.
 
-[**Vaghty**](https://vaghty.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/navidalvand/) &nbsp;·&nbsp; [X](https://x.com/navidalvand)
-
-## 01 / Building
-
-### [Vaghty — وقتی](https://vaghty.com)
-
-**Founder · Full-stack engineer**
-
-An appointment-booking platform for service businesses. I'm building the product and its underlying engineering systems, from booking flows and business management to the web experience and operational tooling.
-
-**Go · Next.js · TypeScript · PostgreSQL · Redis · Docker**
-
-### [Joow](https://joow.ir)
-
-Previous engineering work on a messaging product. My work covered backend APIs, real-time communication, background processing, authentication and notification systems.
-
-**NestJS · TypeScript · Prisma · PostgreSQL · Redis · Socket.IO**
-
-## 02 / Engineering
-
-| Discipline | Tools & technologies |
-| :--- | :--- |
-| **Backend & APIs** | Go, Node.js, TypeScript, NestJS, Express, Fastify, REST, OpenAPI |
-| **Web & mobile** | React, Next.js, Tailwind CSS, Flutter |
-| **Data & identity** | PostgreSQL, MongoDB, Redis, Prisma, TypeORM, Keycloak |
-| **Real-time & async** | WebSockets, Socket.IO, WebRTC, BullMQ |
-| **Infrastructure** | Linux, Docker, Nginx, CI/CD, OpenTelemetry |
-| **Applied AI** | LLM integrations, agent frameworks, MCP, retrieval-augmented generation, Qdrant |
-
-Go and TypeScript are my primary tools. I choose the rest based on the problem rather than the stack.
-
-## 03 / Public code
-
-A selection of earlier public repositories, covering API development and server-side fundamentals. Much of my more recent product work lives in private repositories.
-
-| Repository | Focus |
-| :--- | :--- |
-| [Project Manager](https://github.com/navidalvand/Project-Manager) | Project management API with Express, MongoDB and JWT |
-| [Store Project](https://github.com/navidalvand/store-project) | Commerce-oriented backend with authentication, Redis and validation |
-| [URL Shortener](https://github.com/navidalvand/urlshorter) | URL service using Express, MongoDB and Redis |
-| [Nest Todo](https://github.com/navidalvand/nest-todo) | Modular NestJS API with MongoDB and authentication |
-| [Express Cluster](https://github.com/navidalvand/express-cluster) | Node.js clustering and load-testing experiments |
-
-[Explore all public repositories →](https://github.com/navidalvand?tab=repositories)
-
-## 04 / How I work
-
-I care about clear system boundaries, predictable state, useful tests, and software that can be operated after it ships. As a founder, I also care about whether the product solves a real problem — not just whether the architecture is interesting.
-
-I'm particularly interested in backend architecture, real-time products, applied AI and the intersection of software engineering and product development.
+[**Vaghty ↗**](https://vaghty.com) &nbsp;·&nbsp; [LinkedIn ↗](https://www.linkedin.com/in/navidalvand/) &nbsp;·&nbsp; [X ↗](https://x.com/navidalvand) &nbsp;·&nbsp; [Public code ↗](https://github.com/navidalvand?tab=repositories)
 
 ---
 
-**Let's connect.** [LinkedIn](https://www.linkedin.com/in/navidalvand/) · [X](https://x.com/navidalvand) · [GitHub](https://github.com/navidalvand)
+## 01 / Selected work
+
+[<img src="./assets/vaghty.svg" width="100%" alt="Vaghty — appointment booking and business management">](https://vaghty.com)
+
+**Founder & full-stack engineer · [vaghty.com](https://vaghty.com)**
+
+An appointment-booking product for service businesses. I work across the booking experience, backend services, business and operator tooling, and deployment. The product brings together scheduling, customer-facing interfaces and operational workflows.
+
+`Go` `Next.js` `TypeScript` `PostgreSQL` `Redis` `Docker`
+
+[<img src="./assets/joow.svg" width="100%" alt="Joow — messaging and real-time systems">](https://joow.ir)
+
+**Previous engineering work · [joow.ir](https://joow.ir)**
+
+Messaging infrastructure, backend APIs, real-time communication, authentication, background jobs and notification systems. The work spans a NestJS backend and a cross-platform Flutter application.
+
+`NestJS` `TypeScript` `Prisma` `PostgreSQL` `Redis` `Socket.IO` `Flutter`
+
+## 02 / Engineering toolkit
+
+<img src="./assets/engineering.svg" width="100%" alt="Backend: Go, Node.js, NestJS. Web and mobile: TypeScript, React, Flutter. Data and real-time: PostgreSQL, Redis, WebSockets. Delivery and AI: Docker, CI/CD, LLM tooling.">
+
+Go and TypeScript are my primary tools. I use Node.js for service-oriented applications, Go for backend systems, and React or Next.js for the web.
+
+<details>
+<summary><b>Explore the broader stack</b></summary>
+
+| Area | Tools and practices |
+| :--- | :--- |
+| Backend & APIs | Go, Node.js, NestJS, Express, Fastify, REST, OpenAPI, gRPC |
+| Frontend & mobile | TypeScript, JavaScript, React, Next.js, Tailwind CSS, Flutter |
+| Data & identity | PostgreSQL, MongoDB, Redis, Prisma, TypeORM, Keycloak |
+| Real-time & async | WebSockets, Socket.IO, WebRTC, BullMQ, event-driven workflows |
+| Infrastructure | Linux, Docker, Nginx, CI/CD, OpenTelemetry |
+| Applied AI | LLM integrations, agent frameworks, MCP, RAG, Qdrant |
+
+</details>
+
+## 03 / Public code
+
+Selected earlier repositories. My newer product engineering is largely private; these projects show the foundations behind it.
+
+| Repository | What it explores |
+| :--- | :--- |
+| [Project Manager ↗](https://github.com/navidalvand/Project-Manager) | Express API, MongoDB, JWT, OpenAPI |
+| [Store Project ↗](https://github.com/navidalvand/store-project) | Commerce backend, authentication, validation, Redis |
+| [URL Shortener ↗](https://github.com/navidalvand/urlshorter) | Express service, MongoDB, Redis |
+| [Nest Todo ↗](https://github.com/navidalvand/nest-todo) | Modular NestJS API, authentication, MongoDB |
+| [Express Cluster ↗](https://github.com/navidalvand/express-cluster) | Node.js clustering and load-testing experiments |
+
+[Browse all repositories →](https://github.com/navidalvand?tab=repositories)
+
+## 04 / How I work
+
+I care about the parts of software that are easy to overlook: predictable state, useful tests, clear boundaries, and systems that can be operated after they ship. As a founder, I also care about whether the product solves a real problem.
+
+<details>
+<summary><b>Areas I am exploring</b></summary>
+
+- Reliable service architecture, event-driven systems and real-time products.
+- Applied AI: retrieval, agents and integrating models into existing products.
+- Product design, developer experience, infrastructure and operational reliability.
+
+</details>
+
+---
+
+**Find me:** [GitHub](https://github.com/navidalvand) · [LinkedIn](https://www.linkedin.com/in/navidalvand/) · [X](https://x.com/navidalvand) · [Vaghty](https://vaghty.com)
